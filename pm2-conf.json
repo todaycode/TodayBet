@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name": "backend",
+            "script": "./backend/bin/www",
+            "watch": true
+        },
+        {
+            "name": "frontend",
+            "cwd": "frontend",
+            "script": "npm",
+            "args": "start",
+            "watch": true
+        }
+    ]
+}
